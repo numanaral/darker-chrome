@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darker Chrome</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <h1 class="title">
+        <img src="icons/icon16.png" alt="Darker Chrome" class="title-icon">
+        Darker Chrome
+      </h1>
+    </div>
+    
+    <div class="content">
+      <div class="toggle-container">
+        <div class="toggle-wrapper">
+          <input type="checkbox" id="darkModeToggle" class="toggle-input">
+          <label for="darkModeToggle" class="toggle-label">
+            <div class="toggle-slider">
+              <div class="toggle-icon">
+                <span class="icon-sun">☀️</span>
+                <img src="icons/icon16.png" alt="Dark mode" class="icon-moon">
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="host-info">
+        <span class="label">Host:</span>
+        <span id="hostnameText" class="hostname">Loading...</span>
+      </div>
+    </div>
+  </div>
+  
+  <script src="dist/popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# Development files
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Chrome extension development
+*.crx
+*.pem
+
+# Package manager
+package-lock.json
+yarn.lock 
